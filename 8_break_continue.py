@@ -9,7 +9,6 @@ for item in shopping_list:
 print("*"*80)
 
   #BREAK CONDITION
-
 shopping_list = ["milk", "pasta", "egg", "spam", "bread","rice"]
 item_to_find="spam"
 found_at=None
