@@ -15,7 +15,7 @@
 
             #OR
 
-# def display_info(func):
+def display_info(func):
 
     def inner():
         print("Executing",func.__name__,"function")
