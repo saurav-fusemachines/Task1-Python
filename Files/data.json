@@ -1,0 +1,34 @@
+{
+    "player_details":[
+        {
+            "player_name": "Jason Roy",
+            "email": "jasonroy@gmail.com",
+            "batting_order": "Opener"
+        },
+        {
+            "player_name": "Ben Stokes",
+            "email": "benstokes@gmail.com",
+            "batting_order": "number 4"
+        },
+        {
+            "player_name": "Eion Morgan",
+            "email": "eoinmorgany@gmail.com",
+            "batting_order": "number 3"
+        }
+    ],
+
+    "match_schedule":[
+        {
+            "date":"2022-09-28",
+            "opponent":"Pakistan"
+        },
+        {
+            "date":"2022-09-30",
+            "opponent":"New Zealand"
+        },
+        {
+            "date":"2022-10-04",
+            "opponent":"Sri Lanka"
+        }
+    ]
+}
