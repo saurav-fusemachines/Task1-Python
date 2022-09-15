@@ -1,6 +1,8 @@
 # Requirements
  - python version : >=3.0.0
  - pip version : >= 22.0.
+ - flask
+ - requests
  
 # Python Basics and Advanced topics
 # Basic topic
