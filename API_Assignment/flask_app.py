@@ -2,7 +2,7 @@
 import json
 import re
 from urllib import response
-from xmlrpc.client import METHOD_NOT_FOUND
+
 from flask import Flask, jsonify, request
   
 # creating a Flask app
@@ -17,9 +17,6 @@ def home():
             json_object = json.load(openfile)
         for i in json_object['carts']:
             return jsonify({'data': json_object})
-    
-    #  if  request.method == 'POST':
-    #     return jsonify({'data':"STR"})
 
     except FileNotFoundError:
         return({
