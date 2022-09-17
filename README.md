@@ -5,27 +5,28 @@
  - requests
  
 # Python Basics and Advanced topics
-# Basic topic
-   - Python Keywords and Identifiers
-	 - Python Statements, Indentation,Comments
-	 - Docstring
-	 - Python Variable, constant and literal
-	 - Python Data Type
-	 - Python Type Conversion and Type casting
-	 - Python input, output and import
-	 - Python Operators
-	 - Python namespace
-	 - Python Flow Control ( if else )
-	 - Python Loop (for, while)
-	 - Python break, continue and pass
-	 - Functions
-	 - Return statement
-	 - Function Arguments (Default, keyword, arbitrary)
-	 - Inbuilt functions
-	 - Python Anonymous/ Lambda Function
-	 - Filters, map functions
-	 - Local, Global variables
-	 - Python Data Types in details (List, Dictionary, Tuple, Set, Strings)
+## Basic topic
+ - Python Keywords and Identifiers
+- Python Statements, Indentation,Comments
+- Docstring
+- Python Variable, constant and literal
+- Python Data Type
+- Python Type Conversion and Type casting
+- Python input, output and import
+- Python Operators
+- Python namespace
+- Python Flow Control ( if else )
+- Python Loop (for, while)
+- Python break, continue and pass
+- Functions
+- Return statement
+- Function Arguments (Default, keyword, arbitrary)
+- Inbuilt functions
+- Python Anonymous/ Lambda Function
+- Filters, map functions
+- Local, Global variables
+- Python Data Types in details (List, Dictionary, Tuple, Set, Strings)
+
 
 # Advance topics
    - Files
