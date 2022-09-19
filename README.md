@@ -57,6 +57,6 @@
 
 # ORM(ORM branch)
   - ORM assignment (using flask, sqlalchemy and pandas)
-  - dir = ORM_Assignment
+  - dir = /ORM_Assignment
   
 
