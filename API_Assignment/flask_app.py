@@ -9,7 +9,7 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 #ROOT  
-@app.route('/', methods = ['GET','POST','DELETE'])
+@app.route('/', methods = ['GET'])
 def home():
     try:
      if(request.method == 'GET'):    
