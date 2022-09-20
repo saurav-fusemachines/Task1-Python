@@ -173,12 +173,20 @@ def top_5_famous():
 
 #UPDATE BOOK 
 @app.route('/api/update',methods = ['GET'])
-def update_booklist():
-    update_query = session.query(Book).filter_by(book_id=1).update(dict(book_name="Nepali"))
+def update_booklist(): 
+    sql = '''UPDATE book
+            set  book_name ='Jon Doe'
+            WHERE book_id NOT IN (SELECT burrowed_book_id FROM userdetails)'''
+    sql1 = '''SELECT * FROM book'''        
+    with engine.connect() as con:
+        query = con.execute(sql)
+        query = con. execute(sql1)
     session.commit()
+    df = pd.DataFrame(query.fetchall())
+    print(df)    
     
 
-    return jsonify({'msg':'success'})
+    return jsonify({'msg':'Book Name Updated Successfully'})
      
 
 if __name__ == '__main__':
