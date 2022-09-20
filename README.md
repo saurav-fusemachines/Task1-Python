@@ -3,6 +3,9 @@
  - pip version : >= 22.0.
  - flask
  - requests
+ - pandas
+ - sqlalchemy
+ - mysql
  
 # Python Basics and Advanced topics
 ## Basic topic
@@ -45,6 +48,15 @@
   
  
 # API Assignment (API Branch)
+  - dir = /API_Assignment
   - Solution of question 1 to 5 (flask_app.py)
   - Solution of question 6 (q6_from_external_url.py)
+  
+# DataCamp Codes (DataCamp branch)
+  - dir = /DataCamp
+
+# ORM(ORM branch)
+  - ORM assignment (using flask, sqlalchemy and pandas)
+  - dir = /ORM_Assignment
+  
 
